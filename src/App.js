@@ -1,6 +1,7 @@
 import React from "react";
 import "./Styling/styles.css";
 import { Link } from "react-router-dom";
+import "normalize.css";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </ul>
       <p className="one">hello</p>
       <p className="two">hello</p>
+      <p>hello</p>
     </div>
   );
 }
