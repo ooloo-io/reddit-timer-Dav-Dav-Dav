@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      App Placeholder
-    </div>
+    <ul>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/search">Search</Link>
+      </li>
+    </ul>
   );
 }
 
