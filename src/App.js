@@ -1,7 +1,7 @@
-import React from "react";
-import "./Styling/styles.css";
-import { Link } from "react-router-dom";
-import "normalize.css";
+import React from 'react';
+import './Styling/styles.css';
+import { Link } from 'react-router-dom';
+import 'normalize.css';
 
 function App() {
   return (
